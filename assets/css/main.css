@@ -7,12 +7,13 @@ Colors:
 #EDE9E2
 */
 *{
+	font-family: 'Raleway', sans-serif;
 	padding: 0;
 	margin: 0;
 }
 
 
-
+/*Creando barra de navegacion*/
 header{
 	position: fixed;
 	background-color: #E54E79;
@@ -22,18 +23,24 @@ header{
 	height: 146px;
 }
 
+
 nav ul li{
+	
 	position: relative;
 	display: inline-block;
 	left: 1000px;
 	top: 50px;
-	list-style: none;
+	
 }
 
 a{
-	
-	font-size: 30px;
+	position:relative;
+	list-style: none;
+	font-size: 25px;
 	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
 
 }
 
@@ -60,8 +67,64 @@ a{
 	top: 82px;
 	background-size: cover;
 }
-.caja{
+
+/* Creando mi caja */
+section{
+	position: relative;
 	border: 20px;
-	left: 0;
-	bottom: 0;
+	width: 40%;
+	left: 820px;
+	bottom: 340px;
+	height: 300PX;
+	background-color: #EDE9E2;
 }
+
+.titulo{
+	position: relative;
+	left: 30px;
+	top: 15px;
+	color: #00B2A9;
+}
+
+.bajada{
+	position: relative;
+	left: 30px;
+	color: #75726C;
+	top: 10px;
+}
+
+#solicitud{/* input*/
+	position: relative;
+	left: 30px;
+	top: 40px;
+	height: 30px;
+	width: 400px;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-color: #75726C;
+
+
+}
+
+/*Creando boton*/
+button{ /*Da diseno y color al boton*/
+	position: relative;
+    width: 221px;
+    left: 850px;
+    bottom: 490px;
+    height: 50px;
+    background-color: #E54E79;
+    border-radius: 50px;
+    color: white;
+}
+
+#parafos p{
+	position: relative;
+	color: #75726C;
+	width: 560px;
+    left: 850px;
+    bottom: 480px;
+    height: 50px;
+}
+
