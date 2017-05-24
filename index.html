@@ -10,37 +10,78 @@
 </head>
 <body>
 	<header class="contenedor">
-
-		<div class="logo"> <!-- Creara el menu-->
-			<img id="imagen" alt="">
-		</div>
-		<nav><!-- mostrara las opciones del menu-->
+		<nav class="menu"><!-- mostrara las opciones del menu-->
+			<div class="logo"> <!-- Creara el menu-->
+			</div>
 			<ul>
 				<li><a href="#">Drive</a></li>
 				<li><a href="#">Explore</a></li>
 				<li><a href="#">Help</a></li>
 			</ul>
 		</nav>
-		<div class="imagen"></div>
-
-		<section>
-			<div class="caja"><!--Creara una caja-->
-				<h1 class="titulo">TURN MILES INTO MONEY</h1><br>
-
-				<label for =mi-input class="bajada">SING UP TO DRIVELYFT</label><br>
-				<input id="solicitud" type="text" name="" placeholder="Phone Number"><!--Crea el input de tipo texto-->
-			</div>
-		</section>
-		<button onclick="validar();" type="button">BECOME A DRIVER <i class="fa fa-heart" aria-hidden="true"></i></button>
-		<div id="parafos">
-			<p>Already applied? Check the status of your application here.</p>
-		<p>Earn money for inviting friends to drive. Learn more.</p>
-		</div>
-		
-
-
-
 	</header> 
+
+	<div class="imagen"></div>
+
+	<section>
+		<div class="caja"><!--Creara una caja-->
+			<h1 class="titulo">TURN MILES INTO MONEY</h1><br>
+
+			<label for =mi-input class="bajada">SING UP TO DRIVELYFT</label><br>
+			<input id="solicitud" type="text" name="" placeholder="Phone Number"><!--Crea el input de tipo texto-->
+		</div>
+	</section>
+
+	<button onclick="validar();" type="button">BECOME A DRIVER <i class="fa fa-heart" aria-hidden="true"></i></button>
+
+	<div id="parrafos"><!-- Creara el texto debajo del boton-->
+		<p>Already applied? Check the status of your application here.</p>
+		<p class="parrafo2">Earn money for inviting friends to drive. Learn more.</p>
+	</div>
+
+	<section id="contenedor-calipso"><!-- creara la caja que contendra el juego-->
+
+		<section id="caja-gris"><!-- creara la caja gris con el texto-->
+			<h1>PLAY WITH LYFT</h1>
+		</section>
+
+
+
+		<!-- creara la caja gris con autos-->
+		<section id="caja-autos">
+			<i class="fa fa-car" id="Car1" aria-hidden="true"></i><input class="coordinateX" placeholder="X coordinate">
+			<i class="fa fa-car" id="Car2" aria-hidden="true"></i><input class="coordinateY" placeholder="Y coordinate">
+			
+			<button class="boton-juego">START</button>
+		</section>
+		
+	</section>
+	
+	<footer class="footer">
+	
+		<footer class="primer-footer">
+			<span class="sprint3"> SPRINT 3 - Project </span>
+			<span class="redes-sociales">
+				<i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+				<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+				<i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+			</span>
+			<p class="titulo-links">Links</p>
+			<ul class="links">
+				<li><a href="link1">Link 1</a></li>
+				<li><a href="link2">Link 2</a></li>
+				<li><a href="link3">Link 3</a></li>
+			</ul>
+		</footer>
+
+		<footer class="segundo-footer">
+			<div id="segundo-footer">
+			<p>2017 Lyft & Laboratoria. Inc</p>
+			<p class="ultimo">More Links</p>
+		</div>
+		</footer>		
+			
+		</footer>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
