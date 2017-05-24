@@ -17,21 +17,21 @@ Colors:
 header{
 	position: fixed;
 	background-color: #E54E79;
-    top: 0;
-    width: 100%;
-    height: 82px;
-    text-align: center;
-    z-index: 1;
-    color: white;
+	top: 0;
+	width: 100%;
+	height: 82px;
+	text-align: center;
+	z-index: 1;
+	color: white;
 }
 
 .menu ul{
 	position: absolute;
-     top: 0;
-     right: 100px;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
+	top: 0;
+	right: 100px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 .menu ul li{
@@ -40,31 +40,28 @@ header{
 
 .menu ul li a{
 	display: inline-block;
-     color: white;
-     text-align: center;
-     padding: 26px;
-     text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
 }
 
 .logo{ /*Da estilo y posicion al logo*/
 	position: fixed;
-    left: 21px;
-    top: 6px;
-    width: 70px;
-    height: 74px;
-    padding: 0.4% 5%;
-    text-align: left;
-    background-size: 100px 70px;
-    background-position: 50% 20%;
-    background-repeat: no-repeat;
-    background-image: url(../img/logo-white.png);
-
+	left: 21px;
+	top: 6px;
+	width: 70px;
+	height: 74px;
+	padding: 0.4% 5%;
+	text-align: left;
+	background-size: 100px 70px;
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-image: url(../img/logo-white.png);
 }
 
-
-
 .imagen{/*Da estilo a la imagen*/
-	position: relative;
+	
 	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
 	padding: 1px;
 	width: 100%;
@@ -73,6 +70,7 @@ header{
 	top: 82px;
 	background-size: cover;
 	background-position: center;
+	position: fixed;
 }
 
 
@@ -83,12 +81,12 @@ header{
 /********* Creando mi caja *********/
 section{
 	position: absolute;
-    border: 20px;
-    left: 878px;
-    bottom: 48px;
-    height: 345PX;
-    background-color: #EDE9E2;
-    width: 471px;
+	border: 20px;
+	left: 878px;
+	bottom: 48px;
+	height: 345PX;
+	background-color: #EDE9E2;
+	width: 471px;
 }
 
 .titulo{/*Da estilo al titulo de la caja gris*/
@@ -108,47 +106,47 @@ section{
 
 #solicitud{/* input*/
 	position: absolute;
-    left: 29px;
-    top: 120px;
-    height: 30px;
-    width: 398px;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-color: #75726C;
-    background-color: #EDE9E2;
+	left: 29px;
+	top: 120px;
+	height: 30px;
+	width: 398px;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-color: #75726C;
+	background-color: #EDE9E2;
 }
 
 /*Creando boton*/
 button{ /*Da diseno y color al boton*/
 	position: absolute;
-    width: 230px;
-    left: 900px;
-    bottom: 165px;
-    height: 50px;
-    background-color: #E54E79;
-    border-radius: 50px;
-    color: white;
+	width: 230px;
+	left: 900px;
+	bottom: 165px;
+	height: 50px;
+	background-color: #E54E79;
+	border-radius: 50px;
+	color: white;
 }
 
 #parrafos p{ /*Da estilo a mi primer parrafo*/
 	position: absolute;
-    padding: 0px;
-    color: #75726C;
-    width: 435px;
-    left: 900px;
-    bottom: 119px;
-    height: 21px;
+	padding: 0px;
+	color: #75726C;
+	width: 435px;
+	left: 900px;
+	bottom: 119px;
+	height: 21px;
 }
 
 #parrafos .parrafo2{/*Da estilo a mi segundo parrafo que se encuentra abajo del boton*/
 	position: absolute;
-    padding: 0px;
-    color: #75726C;
-    width: 435px;
-    left: 900px;
-    bottom: 100px;
-    height: 10px;
+	padding: 0px;
+	color: #75726C;
+	width: 435px;
+	left: 900px;
+	bottom: 100px;
+	height: 10px;
 }
 
 
@@ -160,108 +158,114 @@ button{ /*Da diseno y color al boton*/
 #contenedor-calipso{/*Da estilo a la caja calipso*/
 	position: absolute;
 	top: 627px;
-    left: 0;
-    width: 1351px;
-    height: 700px;
-    background-color: #00B2A9;
+	left: 0;
+	width: 1351px;
+	height: 700px;
+	background-color: #00B2A9;
 }
 
 #caja-gris{ /*da estilo a la caja de color gris con texto*/
 	position: relative;
-    left: 0;
-    width: 1351px;
-    background-color: #EDE9E2;
-    top: 97px;
-    height: 100px;
+	left: 0;
+	width: 1351px;
+	background-color: #EDE9E2;
+	top: 97px;
+	height: 100px;
 }
 
 #caja-gris h1{/*Da estilo al texto que se encuentra dentro de la caja gris*/
 	position: relative;
 	left: 382px;
 	top: 25px;
-	 color: #75726C;
-	 font-size: 60px;
+	color: #75726C;
+	font-size: 60px;
 }
 
 #caja-autos{
 	position: relative;
-    left: 207px;
-    top: 187px;
-    width: 919px;
+	left: 207px;
+	top: 187px;
+	width: 919px;
 
 }
 
 #caja-autos .coordinateX{
-    position: relative;
-    font-size: 23px;
-    height: 33px;
-    top: 100px;
-    width: 278px;
-    left: 82px;
-    background-color: #EDE9E2;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-color: #75726C;
+	position: relative;
+	font-size: 23px;
+	height: 33px;
+	top: 100px;
+	width: 278px;
+	left: 82px;
+	background-color: #EDE9E2;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-color: #75726C;
 }
 
 #caja-autos .coordinateY{
-    position: relative;
-    font-size: 23px;
-    height: 33px;
-    top: 100px;
-    width: 278px;
-    left: 264px;
-    background-color: #EDE9E2;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-color: #75726C;
+	position: relative;
+	font-size: 23px;
+	height: 33px;
+	top: 100px;
+	width: 278px;
+	left: 264px;
+	background-color: #EDE9E2;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-color: #75726C;
 }
 
 #caja-autos .boton-juego{
 	position: absolute;
-    background-color: #00B2A9;
-    border-radius: 50px;
-    color: white;
-    left: 57px;
-    width: 770px;
-    top: 194px;
-    font-size: 15px;
+	background-color: #00B2A9;
+	border-radius: 50px;
+	color: white;
+	left: 57px;
+	width: 770px;
+	top: 194px;
+	font-size: 15px;
 }
 
-#Car1{
+#Car1{ /*Da estilo al primer icono auto*/
 	display: inline-block;
-    position: absolute;
-    top: 100px;
-    left: 42px;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 25px;
-    color: #75726C;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	position: absolute;
+	top: 100px;
+	left: 42px;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 25px;
+	color: #75726C;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-#Car2{
+#Car2{/*Da estilo al segundo icono auto*/
 	display: inline-block;
-    position: absolute;
-    top: 100px;
-    left: 502px;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 25px;
-    color: #75726C;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	position: absolute;
+	top: 100px;
+	left: 502px;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 25px;
+	color: #75726C;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-.primer-footer{	
+
+
+
+
+/*Creando estilos de footer*/
+
+.primer-footer{	/*Da estilo al primer footer*/
 	width: 100%;
-    height: 31vh;
-    background-color: #75726C;
-    position: absolute;
-    top: 1327px;
+	height: 31vh;
+	background-color: #75726C;
+	position: absolute;
+	top: 1327px;
 }
 .sprint3{
 	color: #EDE9E2;
@@ -279,34 +283,36 @@ button{ /*Da diseno y color al boton*/
 .titulo-links{
 	color: #EDE9E2;
 	position: absolute;
-    top: 30px;
-    right: 120px;
+	top: 30px;
+	right: 120px;
 }
 .links{
 	position: absolute;
-    top: 50px;
-    right: 120px;
-    text-decoration: none;
-    list-style: none;
+	top: 50px;
+	right: 120px;
+	text-decoration: none;
+	list-style: none;
 }
 .links li a{
 	color: #EDE9E2;
 }
 
-.segundo-footer{
+
+/*Segundo footer*/
+.segundo-footer{/*Da estilo al contenedor y letras*/
 	position: relative;
 	background-color: #3A3636;
-    bottom: -937px;
-    left: 0;
-    width: 100%;
-    height: 42px;
-    color:  #EDE9E2;;
+	bottom: -1475px;
+	left: 0;
+	width: 100%;
+	height: 54px;
+	color: #EDE9E2;
 }
 
 .segundo-footer p{
 	position: relative;
-	 left: 26px;
-	 top: 10px;
+	left: 26px;
+	top: 10px;
 }
 
 .segundo-footer .ultimo{
